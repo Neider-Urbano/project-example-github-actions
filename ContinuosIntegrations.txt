@@ -1,0 +1,31 @@
+CI / CD / DC
+CONTINUOS INTEGRATIONS
+CONTINUOS DEPLOYMENT
+CONTINUOS DELIVERY
+
+Las pruebas frecuentes de CI/CD reducen los errores y defectos del código, lo que 
+explica por qué son cruciales para cualquier flujo de trabajo de DevOps.
+
+1. CONTINUOS INTEGRATIONS
+    ¿Qué es?
+        - Es la práctica de integrar cambios de código en un repositorio múltiples veces al día.
+        - La CI es una práctica recomendada de DevOps
+    
+    Herramientas
+        - Jenkis
+        - GitLab
+        - Buildbot
+        - GitHub Actions
+        - Azure DevOps
+        - CircleCI
+        - Buddy
+
+1. CONTINUOS DEPLOYMENT
+    ¿Qué es?
+        - Se hace build, pruebas y despliegue a produccion automatico 
+
+1. CONTINUOS DELIVERY
+    ¿Qué es?
+        - se la conoce como el siguiente paso o extensión de la integración continua. 
+        Tiene como objetivo principal conseguir que la entrega de los nuevos cambios 
+        o actualizaciones del software a los clientes se realicen de forma ágil y fiable.

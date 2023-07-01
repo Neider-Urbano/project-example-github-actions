@@ -1,0 +1,38 @@
+GITHUB ACTIONS
+
+Es una plataforma de integración y despliegue continuos (IC/DC) que 
+te permite automatizar tu mapa de compilación, pruebas y despliegue. 
+Puedes crear flujos de trabajo (WORKFLOWS) y crear y probar cada solicitud de 
+cambios en tu repositorio o desplegar solicitudes de cambios 
+fusionadas a producción.
+
+1. Pasos para crear nuestro WORKFLOWS
+    - Podemos dar clic en la opcion (actions) de github que tiene para los repositorios
+        - Elegir segun lo requira el projecto alguno de los worflows dispobibles 
+    - Dentro de nuestro projecto crear una carpeta
+        .github
+    - Dentro de esta carpeta crear otra
+        workflows
+    - Dentro de esta carpeta crear nuestros archivos workflows
+    - Los podemos llamar como queramos
+    - La extension de los archivos debe ser .yml
+    - Instalar la extension YAML
+        YAML - Que es
+            Es un lenguaje de serialización de datos que las 
+            personas pueden comprender y suele utilizarse en el diseño 
+            de archivos de configuración
+
+2. LENGUAGE YAML
+    Nota: Funciona con tabulaciones
+    A) name:
+        Definir un nombre al documento yaml
+    
+    B) on:
+        Escuchar un evento, example: Escuchar el evento push sobre la rama main
+            on:
+                push:
+                    branches:
+                        - main
+    
+    c) jobs:
+        Para asignar el trabajo del worflow
