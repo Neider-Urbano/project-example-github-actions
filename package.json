@@ -4,11 +4,11 @@
   "description": "Repositorio de prueba para ver la funcionalidad de github actions",
   "main": "src/node/server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node ./src/node/server.js",
     "dev": "nodemon ./src/node/server.js",
     "lint": "eslint .  --ext .js",
-    "lint-fix": "eslint . --ext .js --fix"
+    "lint-fix": "eslint . --ext .js --fix",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -28,6 +28,7 @@
     "eslint-config-standard": "^17.1.0",
     "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-n": "^16.0.1",
-    "eslint-plugin-promise": "^6.1.1"
+    "eslint-plugin-promise": "^6.1.1",
+    "jest": "^29.5.0"
   }
 }
