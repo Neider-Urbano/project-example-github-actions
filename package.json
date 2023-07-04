@@ -11,8 +11,8 @@
     "test": "jest",
     "build": "webpack --mode production",
     "cypress:open": "cypress open",
-    "cypress:runChrome": "cypress run --browser chrome --spec cypress/e2e/examples/my-test.cy.js",
-    "cypress:runChromeHeadless": "cypress run --headless --browser chrome --spec cypress/e2e/examples/my-test.cy.js"
+    "cypress:runChrome": "cypress run --browser chrome --spec cypress/e2e/my-test.cy.js",
+    "cypress:runChromeHeadless": "cypress run --headless --browser chrome --spec cypress/e2e/my-test.cy.js"
   },
   "repository": {
     "type": "git",
