@@ -3,6 +3,10 @@ const app = express();
 
 app.use(express.json());
 
-app.listen(4000, () => {
-  console.log("listening on " + 4000);
+app.get("/", (req, res) => {
+  res.send("Welcome");
+});
+
+app.listen(5000, () => {
+  console.log("listening on " + 5000);
 });
