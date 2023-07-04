@@ -3,3 +3,4 @@ cypress/plugins
 cypress/support
 cypress/downloads
 cypress/fixtures
+cypress/videos
