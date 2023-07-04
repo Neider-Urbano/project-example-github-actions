@@ -1,6 +1,4 @@
 node_modules
-cypress/plugins
-cypress/support
 cypress/downloads
 cypress/fixtures
 cypress/videos
