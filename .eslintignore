@@ -1,3 +1,5 @@
 node_modules
 src/calculadora
 *.test.js
+cypress
+cypress.config.js

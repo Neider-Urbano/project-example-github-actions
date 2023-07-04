@@ -1,0 +1,29 @@
+name: Usando acciones github
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v2
+        with:
+          node-version: "14"
+      - name: Install dependencies
+        run: npm install --no-audit --no-fund --no-optional
+      - name: Lint
+        run: npm run lint
+      - name: Test
+        run: npm run test
+      - name: E2E tests
+        uses: cypress-io/github-actions@v2
+        with:
+          command: npm run cypress:runChromeHeadless
+          start: npm run start
+          wait-on: http://localhost:4000
