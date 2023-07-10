@@ -1,0 +1,10 @@
+Son dos endpoints que definimos para verificar que todo marcha ok
+
+const {version}=require("./package.json")
+app.get("/health",(req,res)=>{
+    res.send("Ok")
+})
+
+app.get("/version",(req,res)=>{
+    res.send(version)
+})
