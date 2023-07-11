@@ -1,0 +1,9 @@
+Configuracion en GitHub 
+
+-Branch name pattern
+    main
+
+-Protect matching branches 
+    * Require status checks to pass before merging - Check=true
+        - Require branches to be up to date before merging - Check=true
+        - Status checks that are required - deploy=select
