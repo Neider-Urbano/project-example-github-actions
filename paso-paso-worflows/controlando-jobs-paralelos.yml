@@ -1,4 +1,4 @@
-name: Un trabajo depende de otro
+name: Un trabajo depende de otro para ejecutarse
 
 on:
   push:
