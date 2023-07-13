@@ -1,4 +1,4 @@
-name: Controlando jobs en paralelo, para que se ejecute un trabajo despues de que corra bien un trabajo anterior, es decir, que necesita de un trabajo anterior para ejecutarse
+name: Un trabajo depende de otro
 
 on:
   push:
