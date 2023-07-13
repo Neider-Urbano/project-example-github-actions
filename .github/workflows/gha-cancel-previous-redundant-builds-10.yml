@@ -1,4 +1,4 @@
-name: github pull request verify event
+name: Cancelar previous redundants build
 
 on:
   push:

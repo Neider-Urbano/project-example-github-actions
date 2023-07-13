@@ -1,4 +1,4 @@
-name: Cancelar previous redundants build
+name: github pull request verify event
 
 on:
   push:
@@ -15,6 +15,7 @@ jobs:
         uses: styfle/cancel-workflow-action
         with:
           access_token: ${{ github.token }}
+
       - uses: actions/checkout@v2
         with:
           fetch-depth: 0
