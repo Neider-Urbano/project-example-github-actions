@@ -1,4 +1,4 @@
-name: Usando acciones github para los pull request
+name: github actions pull request
 
 on:
   push:

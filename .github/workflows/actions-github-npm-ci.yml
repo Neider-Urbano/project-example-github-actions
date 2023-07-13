@@ -1,4 +1,4 @@
-name: Usando acciones github
+name: Usando acciones github npm ci dependencies
 
 on:
   push:
