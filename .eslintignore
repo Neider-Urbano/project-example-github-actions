@@ -3,3 +3,4 @@ src/calculadora
 *.test.js
 cypress
 cypress.config.js
+dist

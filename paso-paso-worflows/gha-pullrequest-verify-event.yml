@@ -1,4 +1,4 @@
-name: Evitar un trabajo en un pull request
+name: github pull request verify event
 
 on:
   push:

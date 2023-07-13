@@ -1,4 +1,4 @@
-name: Usando acciones github
+name: Usando acciones github para test
 
 on:
   push:
@@ -16,6 +16,8 @@ jobs:
         with:
           node-version: "14"
       - name: Install dependencies
-        run: npm ci
+        run: npm install --no-audit --no-fund --no-optional
       - name: Lint
         run: npm run lint
+      - name: Test
+        run: npm run test

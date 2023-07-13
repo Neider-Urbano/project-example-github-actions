@@ -1,4 +1,4 @@
-name: Usando acciones github
+name: Usando acciones github no audit dependences
 
 on:
   push:
@@ -19,11 +19,3 @@ jobs:
         run: npm install --no-audit --no-fund --no-optional
       - name: Lint
         run: npm run lint
-      - name: Test
-        run: npm run test
-      - name: E2E tests
-        uses: cypress-io/github-action@v2
-        with:
-          command: npm run cypress:runChromeHeadless
-          start: npm run start
-          wait-on: http://localhost:5000

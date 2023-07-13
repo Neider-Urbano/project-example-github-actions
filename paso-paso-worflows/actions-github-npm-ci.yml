@@ -1,11 +1,9 @@
-name: Usando acciones github para los pull request
+name: Usando acciones github npm ci dependencies
 
 on:
   push:
-    branches: [main]
-  pull_request:
-    branches: ["main"]
-    types: [opened, synchronize]
+    branches:
+      - main
 
 jobs:
   deploy:
